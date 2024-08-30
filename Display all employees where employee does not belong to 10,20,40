@@ -1,0 +1,3 @@
+select *
+from emp
+where deptno <>10 and deptno <>20 and deptno <>40;
