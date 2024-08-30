@@ -1,0 +1,3 @@
+select ename
+from emp
+where ename like 'J%'and ename like '%S'
