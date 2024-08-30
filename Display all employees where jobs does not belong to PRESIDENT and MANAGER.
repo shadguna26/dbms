@@ -1,0 +1,3 @@
+select *
+from emp
+where JOB <>'MANAGER'and JOB<>'PRESIDENT';
