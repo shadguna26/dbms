@@ -1,0 +1,5 @@
+select deptno
+from emp			
+where sal>(select avg(sal)
+from emp)
+group by deptno
